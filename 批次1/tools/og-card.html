@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 0; width: 1200px; height: 630px; overflow: hidden; }
+  .card {
+    width: 1200px; height: 630px; box-sizing: border-box;
+    background: #181b2a;
+    padding: 58px 88px 54px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    font-family: helvetica-neue, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #eeecf7;
+    position: relative; overflow: hidden;
+  }
+  .glow {
+    position: absolute; width: 720px; height: 720px;
+    right: -300px; bottom: -420px;
+    background: #2b2452; border-radius: 50%; z-index: 0;
+  }
+  .card > div:not(.glow) { position: relative; z-index: 1; }
+  .logo { width: 124px; height: auto; display: block; }
+  .eyebrow { font-size: 19px; letter-spacing: .2em; color: #dad5f2; margin-top: 14px; }
+  h1 { font-size: 62px; line-height: 1.25; margin: 0; font-weight: 500; letter-spacing: -0.01em; }
+  .sub { font-size: 26px; color: #b1afc3; margin-top: 20px; line-height: 1.55; }
+  .rule { height: 1px; background: #393b50; margin: 0 0 18px; }
+  .foot { display: flex; justify-content: space-between; align-items: baseline; font-size: 21px; color: #b1afc3; gap: 40px; }
+  .foot span, .foot b { white-space: nowrap; }
+  .foot b { color: #dad5f2; font-weight: 400; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="glow"></div>
+    <div>
+      <img class="logo" src="/Users/harvey/Desktop/官网/assets/soker-mark.svg" alt="">
+      <div class="eyebrow">Soker · AI 获客助手</div>
+    </div>
+    <div>
+      <h1>你说需求，Soker 帮你找、替你聊<br>把客户带上门</h1>
+      <div class="sub">从抖音公开讨论中识别真实需求，授权后替你沟通<br>只把愿意继续聊的客户，交到你手上</div>
+    </div>
+    <div>
+      <div class="rule"></div>
+      <div class="foot"><span>汽车 · 房产 · 家装 · 保险 · 教育 · 企业服务</span><b>首批内测招募中</b></div>
+    </div>
+  </div>
+</body>
+</html>

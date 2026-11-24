@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Soker 获客助手是什么？适用行业、工作方式与使用边界 — Soker 常见问题</title>
+<meta name="description" content="Soker 是面向销售个人的 AI 获客助手：从抖音公开讨论中识别有真实需求的人，经授权后沟通并承接回复。本文说明它适合哪些行业、如何运作、数据从哪来，以及现阶段的能力边界。">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://soker-website.vercel.app/faq.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Soker 获客助手是什么？适用行业、工作方式与使用边界">
+<meta property="og:description" content="从抖音公开讨论中识别真实需求，授权后沟通并承接回复。说明适用行业、工作方式与现阶段边界。">
+<meta property="og:url" content="https://soker-website.vercel.app/faq.html">
+<meta property="og:image" content="https://soker-website.vercel.app/assets/og-soker.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="Soker">
+<link rel="icon" type="image/svg+xml" href="/assets/soker-icon.svg">
+<style>
+  :root{
+    --ink:#eeecf7; --muted:#b1afc3; --rule:#393b50;
+    --bg:#181b2a; --panel:#1f2233; --accent:#dad5f2;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:helvetica-neue,"PingFang SC","Microsoft YaHei",sans-serif;
+    font-size:16px; line-height:1.75;
+  }
+  a{color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(218,213,242,.35)}
+  a:hover{border-bottom-color:var(--accent)}
+  .wrap{max-width:760px; margin:0 auto; padding:0 24px}
+  header{border-bottom:1px solid var(--rule)}
+  .bar{display:flex; align-items:center; justify-content:space-between; height:74px}
+  .bar img{height:26px; width:auto; display:block}
+  .bar .back{font-size:14px; color:var(--muted); border:0}
+  main{padding:64px 0 8px}
+  .eyebrow{font-size:13px; letter-spacing:.16em; color:var(--muted); margin:0 0 18px}
+  h1{font-size:34px; line-height:1.35; font-weight:500; margin:0 0 22px; letter-spacing:-0.01em}
+  .lead{font-size:17px; color:#d7d4e4; margin:0 0 40px}
+  h2{font-size:21px; font-weight:500; margin:56px 0 16px; padding-top:24px; border-top:1px solid var(--rule)}
+  h3{font-size:16px; font-weight:500; margin:30px 0 8px; color:var(--ink)}
+  p{margin:0 0 14px; color:#cfccdc}
+  .facts{background:var(--panel); border:1px solid var(--rule); border-radius:12px; padding:8px 24px; margin:0 0 8px}
+  .facts dl{margin:0}
+  .facts dt{font-size:13px; color:var(--muted); margin:18px 0 4px; letter-spacing:.04em}
+  .facts dd{margin:0 0 18px; color:var(--ink)}
+  ul{padding-left:20px; color:#cfccdc}
+  li{margin:6px 0}
+  .note{font-size:14px; color:var(--muted); border-left:2px solid var(--rule); padding-left:16px; margin:24px 0}
+  .cta{display:inline-block; margin:8px 0 0; padding:13px 26px; border:1px solid var(--accent);
+       border-radius:999px; color:var(--accent); font-size:15px}
+  .cta:hover{background:var(--accent); color:var(--bg)}
+  footer{border-top:1px solid var(--rule); margin-top:72px; padding:28px 0 48px;
+         font-size:13px; color:var(--muted); line-height:2}
+  footer a{color:var(--muted); border:0}
+  @media (max-width:640px){
+    main{padding-top:40px}
+    h1{font-size:26px}
+    .lead{font-size:16px}
+    h2{font-size:19px; margin-top:40px}
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Soker 是什么？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Soker 是一款面向销售个人的 AI 获客助手，运行在网页端。它从抖音等社交平台的公开讨论中识别有真实需求的用户，在用户授权后依据其业务资料发起沟通、承接回复，并把愿意继续聊的客户交付给销售本人。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Soker 适合哪些行业的销售？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "主要面向个人销售与小型销售团队，覆盖汽车销售、房产销售、家装建材、保险销售、教育培训、企业服务等行业。判断是否适合的关键是：你的客户会不会在社交媒体上公开表达需求。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Soker 的客户线索从哪里来？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "来自社交平台的公开讨论内容，现阶段为抖音，后续会陆续打通更多平台。Soker 通过分析公开表达的需求信号找到潜在客户，不购买第三方名单，也不使用来路不明的号码库。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "使用 Soker 需要交出我的微信或抖音账号吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "分阶段看。找客阶段只需要你在 Soker 内确认业务资料与沟通范围，不需要交出账号密码；盘客阶段在你授权后接入微信，由你确认可读取的范围，用于客户标签整理与朋友圈信息归集，你可以随时收回授权。任何要求你交出账号密码的做法都应当拒绝。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Soker 会乱报价或者乱承诺吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Soker 使用你本人确认过的业务资料承接回复，不自行编造价格与承诺；遇到无法解答的问题会先与你沟通确认。对话围绕对方关心的具体问题组织，不使用固定话术模板。你可以随时暂停并接管对话。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Soker 和群控、外呼机器人有什么区别？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Soker 只处理公开可见的讨论内容，沟通前需要用户授权，不批量登录账号、不群发、不自动加好友，也不承诺回复率或成交率。它的目标是找出真实需求并聊清楚，而不是扩大发送量。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "我授权的信息会泄露吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "客户资料与对话内容仅你本人可见，用于你自己的业务跟进，不对外共享、不做二次销售。可查看范围由你在客户端内确认，也可以随时收回授权。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "使用 Soker 会违规封号吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Soker 按平台规则运行：只处理公开可见的内容，沟通前需你授权，不做批量登录、群发、自动加好友这类高风险动作。需要说明的是，任何第三方工具都无法对平台风控作绝对承诺，建议使用专用账号，并在关键环节保持人工接管。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Soker 能保证成交吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不能。Soker 负责的是获客与沟通的前半段：找到有需求的人、判断关注点、承接回复、整理下一步。成交仍取决于你的产品、报价与销售能力。官方不承诺回复率、成交率，也不承诺在用户关闭电脑后于云端继续执行。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Soker 怎么帮我盘客户？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "在你授权后，Soker 可以给客户打标签、按需求阶段与跟进状态归类，把散落在朋友圈里的信息整理成可用的线索，并在客户有新动态时提醒你不要遗漏。授权范围由你确认，也可以随时收回。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "现在可以免费用吗？怎么申请内测？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Soker 目前处于首批内测阶段，限量 100 个名额，页面公示权益为「免费获客 50 人次 · 终生 VIP 半价」，具体条款以官方通知为准。可以在官网首页末尾的招募页提交申请。请注意：当前申请表仅为视觉演示，填写内容不会发送或保存。"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a href="/" aria-label="返回 Soker 首页"><img src="/assets/soker-mark.svg" alt="Soker" width="106" height="61"></a>
+    <a class="back" href="/">← 返回首页</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="eyebrow">Soker · 产品说明</p>
+  <h1>Soker 获客助手是什么？适用行业、工作方式与使用边界</h1>
+  <p class="lead">如果你是被「AI 帮你找客户」这句话吸引过来的，这一页把话说清楚：Soker 做什么、不做什么、适合谁、现在能做到哪一步。</p>
+
+  <div class="facts">
+    <dl>
+      <dt>一句话定义</dt>
+      <dd>面向销售个人的 AI 获客助手，从社交媒体公开讨论中识别有真实需求的人，授权后沟通，把愿意继续聊的客户交给你。</dd>
+      <dt>适合谁</dt>
+      <dd>汽车、房产、家装建材、保险、教育培训、企业服务等行业的个人销售与小型团队。</dd>
+      <dt>数据来源</dt>
+      <dd>抖音等平台的公开讨论内容，不购买第三方名单。</dd>
+      <dt>当前阶段</dt>
+      <dd>首批内测，限量 100 个名额。</dd>
+    </dl>
+  </div>
+
+  <h2>它解决的是哪一段问题</h2>
+  <p>销售的时间大多消耗在成交之前：翻评论区找线索、判断这个人是不是真的要买、想第一句怎么开口、被追问价格时怎么答。这些动作很难量化，却决定了后面能不能谈。</p>
+  <p>Soker 接的是这一段。它先找出正在公开表达需求的人，再判断对方更在意价格、车况还是售后，然后用你确认过的资料组织开场并承接回复，最后把已确认需求、关键对话和下一步整理好交给你。</p>
+  <p>换句话说，它把「找客户、聊需求」这段前置工作接过去，把「判断和成交」留给你。</p>
+
+  <h2>工作方式：四步</h2>
+  <ul>
+    <li><strong>需求发现</strong>：从社交平台的公开讨论中，识别正在表达相关需求的人。</li>
+    <li><strong>需求判断</strong>：区分价格敏感、车况关注等不同关注点，判断突破口。</li>
+    <li><strong>授权沟通</strong>：在你确认业务资料后，围绕对方关心的具体问题组织开场，不使用固定话术。</li>
+    <li><strong>客户交付</strong>：整理已确认需求、关键对话与下一步，交付到你手中。</li>
+  </ul>
+  <p>目标由你设定，对话可以随时暂停和接管。</p>
+
+  <h2>常见问题</h2>
+
+  <h3>Soker 是什么？</h3>
+  <p>Soker 是一款面向销售个人的 AI 获客助手，运行在网页端。它从抖音等社交平台的公开讨论中识别有真实需求的用户，在用户授权后依据其业务资料发起沟通、承接回复，并把愿意继续聊的客户交付给销售本人。</p>
+
+  <h3>Soker 适合哪些行业的销售？</h3>
+  <p>主要面向个人销售与小型销售团队，覆盖汽车销售、房产销售、家装建材、保险销售、教育培训、企业服务等行业。判断是否适合的关键是：你的客户会不会在社交媒体上公开表达需求。</p>
+
+  <h3>Soker 的客户线索从哪里来？</h3>
+  <p>来自社交平台的公开讨论内容，现阶段为抖音，后续会陆续打通更多平台。Soker 通过分析公开表达的需求信号找到潜在客户，不购买第三方名单，也不使用来路不明的号码库。</p>
+
+  <h3>使用 Soker 需要交出我的微信或抖音账号吗？</h3>
+  <p>分阶段看。找客阶段只需要你在 Soker 内确认业务资料与沟通范围，不需要交出账号密码；盘客阶段在你授权后接入微信，由你确认可读取的范围，用于客户标签整理与朋友圈信息归集，你可以随时收回授权。任何要求你交出账号密码的做法都应当拒绝。</p>
+
+  <h3>Soker 会乱报价或者乱承诺吗？</h3>
+  <p>Soker 使用你本人确认过的业务资料承接回复，不自行编造价格与承诺；遇到无法解答的问题会先与你沟通确认。对话围绕对方关心的具体问题组织，不使用固定话术模板。你可以随时暂停并接管对话。</p>
+
+  <h3>Soker 和群控、外呼机器人有什么区别？</h3>
+  <p>Soker 只处理公开可见的讨论内容，沟通前需要用户授权，不批量登录账号、不群发、不自动加好友，也不承诺回复率或成交率。它的目标是找出真实需求并聊清楚，而不是扩大发送量。</p>
+
+  <h3>我授权的信息会泄露吗？</h3>
+  <p>客户资料与对话内容仅你本人可见，用于你自己的业务跟进，不对外共享、不做二次销售。可查看范围由你在客户端内确认，也可以随时收回授权。</p>
+
+  <h3>使用 Soker 会违规封号吗？</h3>
+  <p>Soker 按平台规则运行：只处理公开可见的内容，沟通前需你授权，不做批量登录、群发、自动加好友这类高风险动作。需要说明的是，任何第三方工具都无法对平台风控作绝对承诺，建议使用专用账号，并在关键环节保持人工接管。</p>
+
+  <h3>Soker 能保证成交吗？</h3>
+  <p>不能。Soker 负责的是获客与沟通的前半段：找到有需求的人、判断关注点、承接回复、整理下一步。成交仍取决于你的产品、报价与销售能力。官方不承诺回复率、成交率，也不承诺在用户关闭电脑后于云端继续执行。</p>
+
+  <h3>Soker 怎么帮我盘客户？</h3>
+  <p>在你授权后，Soker 可以给客户打标签、按需求阶段与跟进状态归类，把散落在朋友圈里的信息整理成可用的线索，并在客户有新动态时提醒你不要遗漏。授权范围由你确认，也可以随时收回。</p>
+
+  <h3>现在可以免费用吗？怎么申请内测？</h3>
+  <p>Soker 目前处于首批内测阶段，限量 100 个名额，页面公示权益为「免费获客 50 人次 · 终生 VIP 半价」，具体条款以官方通知为准。可以在官网首页末尾的招募页提交申请。</p>
+
+  <h2>使用边界</h2>
+  <p>把限制写在明处，比事后解释有用：</p>
+  <ul>
+    <li>只处理公开可见的讨论内容，沟通前需要用户授权。</li>
+    <li>不承诺回复率、成交率，也不承诺关闭电脑后于云端继续执行。</li>
+    <li>内测申请表当前仅为视觉演示，不发送、不保存、不收集填写的联系资料。</li>
+    <li>现阶段公开宣传的能力范围是抖音公开需求发现、授权沟通，以及在你授权后的客户信息整理；其他平台与能力以上线公告为准。</li>
+    <li>产品处于首批内测阶段，功能与可用范围可能调整。</li>
+  </ul>
+
+  <p class="note">本页信息最近更新于 2026 年 11 月 24 日。产品仍在迭代，具体功能与权益以官方通知为准。</p>
+
+  <p><a class="cta" href="/#beta">了解首批内测 →</a></p>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><a href="/">Soker 官网首页</a> · <a href="/faq.html">产品说明与常见问题</a> · <a href="/#beta">首批内测</a></div>
+    <div>© 2020-现在 Byering.com. All Rights Reserved · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备2021004016号-2</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
